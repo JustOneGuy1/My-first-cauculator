@@ -1,0 +1,25 @@
+main_queston = input("Addition, Subtraction, Multiplication, Division: ")
+
+if main_queston == "Addition":
+    first_number = input("First: ")
+    second_number = input("Second: ")
+    answer = float(first_number) + float(second_number)
+    print(answer)
+
+if main_queston == "Subtraction":
+    First_number_Subtraction = input("First: ")
+    Second_number_Subtraction = input("Second: ")
+    answer_subtraction = float(First_number_Subtraction) - float(Second_number_Subtraction)
+    print(answer_subtraction)
+
+if main_queston == "Multiplication":
+    First_Number_Multiplcation = input("First: ")
+    Second_Number_Multiplcation = input("Second: ")
+    answer_Multiplcation = float(First_Number_Multiplcation) * float(Second_Number_Multiplcation)
+    print(answer_Multiplcation)
+
+if main_queston == "Division":
+    First_Number_Division = input("First: ")
+    Second_Number_Division = input("Second: ")
+    answer_Division = float(First_Number_Division) / float(Second_Number_Division)
+    print(answer_Division)
